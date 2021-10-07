@@ -12,8 +12,8 @@ Seaborn, matplotlib for cleaning, analyzing, and visualizing data prior to creat
 
 Project Structure
 This App has four major parts :
-1. app.py - This contains code fot our Machine Learning model to predict employee salaries absed on trainign data in 'hiring.csv' file.
-2. weights.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the precited value based on our model and returns it.
+1. app.py - This contains Flask APIs that receives details through GUI or API calls, computes the predicted value based on our model and returns it.
+2. weights.py - This contains code for our Machine Learning model to predict total weight lidted based on training the data in 'weightlifting.csv' file.
 3. templates folder - This folder contains the HTML template (index.html and sub.html) to allow user to enter body weight in pounds  and displays the predicted total olympic lift.
 
 
